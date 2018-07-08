@@ -1,0 +1,403 @@
+@media (min-width: 1440px) {
+
+}
+@media (min-width: 1366px) {
+	
+}
+@media(max-width:1024px) {
+	.navbar {
+		background: #FBF7BA;
+		visibility: hidden;
+		opacity: 0;
+		display: flex;
+		flex-direction: column;
+		height: 100vh;
+		transform: translateY(-100%);
+		width: 30%;
+		position: absolute;
+		top: 100%;
+		right: -100%;
+		border-radius: 0;
+		transition: .2s ease-in-out;
+		z-index: -1;
+		box-shadow: -8px 5px 14px 0 rgba(0, 0, 0, 0.1);
+		transition-delay: 0s
+	}
+	.menu-ativo .navbar {
+		transform: translateY(0);
+		visibility: visible;
+		opacity: 1;
+		margin-top: 0;
+		left: 0;
+		transition-delay: .1s;
+		z-index: 9999;
+		position: fixed;
+		top: 15%;
+		display: flex;
+		height: 100%;
+		width: 100%;
+	}
+	.menu-ativo .menu-abrir {
+		visibility: hidden;
+		opacity: 0
+	}
+	.menu-ativo .menu-fechar {
+		visibility: visible;
+		opacity: 1
+	}
+	.menu-ativo .navbar li:active {
+		background: #fbf6b2;
+	}
+	.menu-ativo .navbar li {
+		margin-right: 0;
+		width: 100%;
+		justify-content: center;
+		height: 6.3em;
+	}
+	.menu-ativo .navbar-link {
+		padding: .3em 0;
+		width: 100%;
+		justify-content: center;
+		align-items: center;
+		display: flex;
+	}
+	.menu-ativo .minhaContaLink, .menu-ativo .minhaContaLinkDisable {
+		width: 8em !important;
+		right: 16%;
+		top: -3.6%;
+		height: 6.8em;
+	}
+	.menu-abrir {
+		color: #000;
+		font-size: 2em;
+		cursor: pointer;
+		position: absolute;
+		transition:.3s;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 80px;
+		height: 100%;
+		left: 0%;
+	}
+	.menu-fechar {
+		color: #000;
+		font-size: 2em;
+		cursor: pointer;
+		visibility: hidden;
+		opacity: 0;
+		width: 80px;
+		height: 100%;
+		left:0%;
+		position: absolute;
+		display: flex;
+		justify-content: center;
+		align-items: center
+	}
+	.nav-links {
+		width: 100%;
+		transition: 1s
+	}
+	nav li {
+		width: 100%;
+		height: 6em;
+	}
+	#Contato main {
+		height: auto;
+	}
+	.socias-header {
+		width: 22em;
+	}
+	.rodape {
+		margin-bottom: 0em;
+	}
+	.container {
+		padding: 0em 3em;
+	}
+	.menu-abrir, .menu-fechar {
+		right: 1.5%;
+		left: auto;
+	}
+	.Heading1 {
+		font-size: 4.9em;
+		line-height: 83px;
+	}
+	.slideContainer h1 {
+		left: 4%;
+	}
+	.slideContainer h3 {
+		width: 15em;
+		position: absolute;
+		left: 4.5%;
+		margin-top: 1em;
+		top: 67%;
+	}
+	.containerImgIndex {
+		height: 94%;
+		width: 35.5em;
+		margin-left: 25.8em;
+	}
+	.carimboHome {
+		top: 66%;
+	}
+	.slidePrincipal .slick-dots {
+		bottom: -38px;
+		height: 3em;
+	}
+	#MaisRecentes h1 {
+		margin-bottom: .5em;
+	}
+	.galeria-recentes {
+		flex-wrap: wrap;
+		justify-content: space-between;
+	}
+	.galeria-box {
+		width: 44%;
+		margin-top: 0.6em;
+		margin-bottom: 6em;
+	}
+	.saibaMais {
+		margin-top: 1.4em;
+	}
+	#Contato p {
+		width: 67%;
+	} 
+	#Contato h3 {
+		margin-top: 1em;
+	}
+	.contato-form, .contato-form input, .contato-form textarea {
+		width: 100%;
+	}
+	#Contato {
+		height: auto;
+		padding-bottom: 4em;
+	}
+	.mapa-container {
+		height: 27.188em;
+		width: 100%;
+
+	}
+	.carimboMeto {
+		right: 0.4%;
+	}
+
+	.list-fabrico p{
+		margin-left: 2.1em;
+	}
+	.Heading4 {
+		font-size:1.1em;
+	}
+	.fabricotipoTarja .container {
+		padding: 2.5em 3.3em;
+	}
+	#FabricoTipo h1 {
+		margin-bottom: .5em;
+	}
+} 
+@media not all and (max-width:1024px) {
+	.menu-abrir,
+	.menu-fechar {
+		display: none
+	}
+}
+@media(max-width: 768px) {
+	.header-principal main {
+		justify-content: center;
+	}
+	.menu-abrir, .menu-fechar {
+		font-size: 2.5em;
+	}
+	.menu-ativo .navbar {
+		top: 15%;
+	}
+	.containerImgIndex {
+		width: 100%;
+		margin-left: 0;
+	}
+	.slideContainer h1, .slideContainer h3 {
+		display: none;
+	}
+	.carimboHome {
+		top: 68%;
+		max-width: 27.3%;
+	}
+	.metodologia-textobox {
+		flex-direction: column;
+	}
+	.metologia-texto {
+		width: 100%;
+	}
+	.list-fabrico {
+		width: 100%;
+		margin-top: 0.7em;
+	}
+	.list-fabrico p {
+		width: 100%;
+		margin-left: 0em;
+	}
+	.Paragraph2 {
+		font-size: 1em;
+	}
+}
+@media(max-width: 425px) {
+	#Trabalho main img {
+		width: 100%; 
+		margin-top: 9%;
+		display: flex;
+		max-height: 39%;
+	}
+	.saibaMaisFoto {
+		width: 100%;
+		margin-top: 16em;
+	}
+	.fabricoTipo {
+		top: -5%;
+		left: 0;
+		margin: 0 auto;
+		right: 0;
+	}
+	.saibaMais {
+		flex-direction: column;
+	}
+	.saibaMaisTexto {
+		padding:2.5em 1em;
+		width: 91.9%;
+		position: relative;
+	}
+	.box-endereco {
+		width: 100%;
+		margin-top: 1em;
+	}
+	.carimboHome {
+		top: 75%;
+		max-width: 32.2%;
+	} 
+	.galeria-box {
+		width: 100%;
+	}
+	.container {
+		padding: 0em 1em;
+	} 
+	#Contato p {
+		width: 100%;
+	}
+	.trabalhos-ul {
+		flex-wrap: wrap;
+	}
+	.trabalhos-ul a {
+		margin-bottom: 1em;
+	}
+	.Heading1 {
+		font-size: 3em;
+		line-height: 66px;
+	}
+	#Sobre h1 {
+		width: 100%;
+	}
+	.sobre-texto {
+		margin-top: 1.5em;
+		margin-bottom: 1em;
+	}
+	.Heading2 {
+		font-size: 2.5em;
+	}
+	.sobre-img, .metodologia-img {
+		height: 23.063em;
+	}
+	.sobre-img img, .metodologia-img img {
+		width: 100%;
+	}
+	.fabricoTipoSlide {
+		height: 14.25em;
+	}
+	.fabricoTipoSlide img {
+		width: 100%;
+	}
+	.fabricotipoTarja {
+		height: auto;
+	}
+	.fabricotipoTarja .container {
+		padding: 2.5em 2em;
+	}
+	.fabricotipoIMG {
+		background: transparent;
+		height: 25.056em;
+	}
+	.fontes-box {
+		width: 100%;
+	}
+	.redes-sociais {
+		flex-wrap: wrap;
+	}
+	.redes-sociais h3 {
+		width: 100%;
+		justify-content: center;
+		align-items: center;
+		display: flex;
+		margin-bottom: 2em;
+		margin-right: 0em;
+	}
+	.redes-sociais a {
+		margin-bottom: 2.5em;
+		width: 33%;
+		display: flex;
+		align-items: center;
+		margin-right: 0em !important;
+		justify-content: center;
+	}
+}
+@media(max-width: 375px) {
+	.Paragraph2 {
+		font-size: 1em;
+	}
+	.Heading3 {
+		font-size: 1.2em;
+	}
+	.saibaMaisTexto {
+		width: 89.8%;
+	}
+	.slidePrincipal {
+		height: 48%;
+		margin-top: -3em;
+	}
+	.containerImgIndex img {
+		width: 100%;
+	}
+	.carimboHome {
+		max-width: 24.2%;
+	}
+	.Heading2 {
+		font-size: 2.4em;
+	}
+	.trabalhos-ul a {
+		margin-right: 2.5em;	
+	}
+	.fabricoTipoSlide {
+		height: 13em;
+	}
+}
+@media(max-width: 320px) {
+	.Heading4 {
+		font-size: .9em;
+	}
+	.saibaMaisTexto {
+		width: 89%;
+	}
+	.trabalhos-ul a {
+		margin-right: 1.5em;	
+	}
+	.Heading2 {
+		font-size: 2.1em;
+	}
+	.Heading1 {
+		font-size: 2.5em;
+		line-height: 53px;
+	}
+	.carimboSobre {
+		bottom: 16%;
+	}
+
+	.fabricoTipoSlide {
+		height: 11em;
+	}
+}

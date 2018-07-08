@@ -1,0 +1,153 @@
+
+
+html {
+	overflow-x: hidden;
+}
+html, header, #Inicial h1, #Inicial h4, #Inicial img {
+	max-width: 1920px !important;
+}
+a {
+	text-decoration: none;
+}
+
+b{
+	font-weight: bold;
+}
+
+i{
+	font-variant: italic;
+}
+
+.container {
+	padding: 0em 7.3em;
+}
+
+.Heading1 {
+/*	font-size: 81px;
+line-height: 97px;*/
+color: #fff;
+font-family: Quicksand;
+font-size: 3em;
+font-weight: 300;
+}
+.Heading2{
+/*	font-size: 2em;	
+line-height: 100px;*/
+color: #fff;	
+font-family: 'Quicksand';
+font-weight: 300;
+font-size: 2em;	
+}
+.Heading3 {
+/*	font-size: 24px;
+line-height: 35px;*/
+font-family: Quicksand;
+color: #fff;
+font-weight: 300;
+font-size: 1.2em;
+
+}
+.Heading4 {
+/*	line-height: 29px;
+font-size: 20px;*/
+color: #fff;
+font-family: Quicksand;
+font-size: 1.1em;
+font-weight: 300;
+}
+.Heading5{
+	/*	font-size: 16px;	*/
+	color: #fff;	
+	font-family: 'Quicksand';
+	font-weight: 400;
+	font-size: .9em;	
+}
+.Paragraph1 {
+/*	font-size: 18px;
+line-height: 26px;*/
+color: #000000;	
+font-family: "Bommer Slab Regular";	
+font-weight: 300;	
+font-size: 1.125em;
+line-height: 26px;
+}
+.Paragraph2 {
+/*	line-height: 20px;
+font-size: 14px;*/
+color: #000000;	
+font-weight: 300;	
+font-family: 'Bommer Slab Light';	
+line-height: 22px;
+font-size: 1em;
+}
+.Display1 {
+/*	font-size: 14px;		
+line-height: 20px;*/
+color: #000000;	
+font-family: "Bommer Slab Light";	
+font-weight: 300;
+font-size: 0.875em;		
+line-height: 20px;
+}
+
+input {
+	height: 3em;	
+	width: 100%;	
+	border: 1px solid rgba(110,110,110,0.4);	
+	border-radius: 3px;	
+	background-color: #FFFFFF;
+	padding: 1em;
+	transition: .3s ease-out;
+}
+input:focus {
+	border: 1px solid #0F97DE;
+	box-shadow: 0 2px 4px 0 rgba(15,151,222,0.3);
+}
+
+.btn-primary {
+	background-color: #FBF7BA;
+	text-transform: uppercase;
+	transition: .3s ease-out;
+	cursor: pointer;
+	color: #000;
+	height: 1.9em;
+	width: 8.264em;
+	display: flex;
+	border: none;
+	align-items: center;
+	justify-content: center;
+}
+
+.btn-primary:hover {
+	background-color: #000;
+	color: #FBF7BA;;
+}
+.btn-secondary {
+	border: 2px solid #fff;	
+	background-color: transparent;
+	border-radius: 5px;
+	color: #FFFFFF;	
+	font-weight: bold;	
+	line-height: 25px;	
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	transition: .3s ease-out;
+	text-transform: uppercase;
+	cursor: pointer;
+}
+.btn-secondary:hover {
+	border-radius: 5px;	
+	background-color: #fff;
+	color: #000;
+}
+.large {
+	font-size: 1.2em;
+	padding: .7em 2em;
+}
+.small {
+	font-size: 1.063em;
+	width: 8.5em;
+	height: 2.22em;
+}
